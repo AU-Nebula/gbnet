@@ -1,3 +1,14 @@
+# GB-Net
+
+> Original README can be found below
+
+## Preliminaries
+ * The code seems to work with Python 3.6, so have that installed.
+ * The GB-Net code depends on a lot of data which can be downloaded by running the `download_data.sh` script from the project root. This gives you around 30GB of data.
+ * There is an `environment.yml` file for Conda which eases the setup of the environment.
+
+---
+
 # Graph Bridging Network (GB-Net)
 Code for the ECCV 2020 paper: [Bridging Knowledge Graphs to Generate Scene Graphs](https://arxiv.org/pdf/2001.02314.pdf)
 ```
@@ -63,7 +74,7 @@ If GPU is not available, to skip deploying the model altogether, you may downloa
 
 Finally, to avoid running the code, you may just open the notebooks in `ipynb/eval_...` and scroll down to see the evaluation results.
 
-Note if you get cuda-related errors, it might be due to the cuda compatibility options that were used to compile this library. In that case, you need to change the compatibility in `lib/fpn/nms/src/cuda/Makefile` and `lib/fpn/roi_align/src/cuda/Makefile` and rebuild both by running make clean and then make in both directories. 
+Note if you get cuda-related errors, it might be due to the cuda compatibility options that were used to compile this library. In that case, you need to change the compatibility in `lib/fpn/nms/src/cuda/Makefile` and `lib/fpn/roi_align/src/cuda/Makefile` and rebuild both by running make clean and then make in both directories.
 Also note that pytorch 0.3.0 only has pre-built binaries for up to cuda 9. In order to run this with cuda 10 and newer GPUs, you need to build pytorch from source.
 
 Acknowledgement: This repository is based on our references [\[1\]](https://github.com/yuweihao/KERN) and [\[42\]](https://github.com/rowanz/neural-motifs)
