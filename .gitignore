@@ -1,0 +1,4 @@
+stanford/
+images/
+checkpoints/
+**/*.ipynb_checkpoints
