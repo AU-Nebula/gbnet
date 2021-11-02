@@ -3,9 +3,8 @@
 > Original README can be found below
 
 ## Preliminaries
- * The code seems to work with Python 3.6, so have that installed.
- * The GB-Net code depends on a lot of data which can be downloaded by running the `download_data.sh` script from the project root. This gives you around 30GB of data.
- * There is an `environment.yml` file for Conda which eases the setup of the environment.
+ * The GB-Net code depends on a lot of data which can be downloaded by running the `download_data.sh` script from the project root. This includes around 30GB of data so it will take some time.
+ * There is an `environment.yml` file which sets up Conda with Python 3.6 and relevant dependencies, `conda env create -f environment.yml`. It is also possible to install the dependencies using pip if you have Python 3.6 installed, `pip install -r requirements.txt`.
 
 ---
 
