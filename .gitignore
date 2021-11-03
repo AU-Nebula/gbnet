@@ -2,3 +2,4 @@ stanford/
 images/
 checkpoints/
 **/*.ipynb_checkpoints
+.python-version
