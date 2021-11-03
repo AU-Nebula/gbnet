@@ -3,3 +3,5 @@ images/
 checkpoints/
 **/*.ipynb_checkpoints
 .python-version
+**/__pycache__/
+**/*.pyc
