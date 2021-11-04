@@ -1,6 +1,7 @@
 stanford/
 images/
 checkpoints/
+caches/
 **/*.ipynb_checkpoints
 .python-version
 **/__pycache__/
