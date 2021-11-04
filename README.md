@@ -1,6 +1,6 @@
 # GB-Net
 
-> Original README can be found below
+[NB: Original README can be found below](#graph-bridging-network-gb-net)
 
 ## Preliminaries
 There are two primary steps to set up the project: data download and Conda environment setup.
