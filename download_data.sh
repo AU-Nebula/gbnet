@@ -23,3 +23,11 @@ wget -nc -P stanford http://svl.stanford.edu/projects/scene-graph/VG/image_data.
 # according to the README.
 mkdir -p checkpoints/vgdet
 wget -nc -P checkpoints/vgdet https://www.dropbox.com/s/cfyqhskypu7tp0q/vg-24.tar
+
+# Pre-trained GB-Net models
+mkdir cahces/
+wget -nc -P caches/ https://www.dropbox.com/sh/rbnkcnfh0bmw08m/AACVBegZ14YGG9XwcsmJFxFua
+
+# GB-Net uses an oddly specific PyTorch version which has to be installed from
+# a manually downloaded wheel.
+wget -nc https://download.pytorch.org/whl/cu90/torch-0.3.0.post4-cp36-cp36m-linux_x86_64.whl

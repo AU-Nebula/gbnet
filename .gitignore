@@ -5,3 +5,4 @@ checkpoints/
 .python-version
 **/__pycache__/
 **/*.pyc
+*.whl

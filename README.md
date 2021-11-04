@@ -3,8 +3,13 @@
 > Original README can be found below
 
 ## Preliminaries
- * The GB-Net code depends on a lot of data which can be downloaded by running the `download_data.sh` script from the project root. This includes around 30GB of data so it will take some time.
- * There is an `environment.yml` file which sets up Conda with Python 3.6 and relevant dependencies, `conda env create -f environment.yml`. It is also possible to install the dependencies using pip if you have Python 3.6 installed, `pip install -r requirements.txt`.
+There are two primary steps to set up the project: data download and Conda environment setup.
+ * The GB-Net code depends on a lot of data which can be downloaded by running the `download_data.sh` script from the project root. This includes over 40GB of data so it will take some time. The data downloaded includes:
+   * the Visual Genome dataset with other 100,000 JPEG images and their respective annotations,
+   * a pre-trained Faster R-CNN model for object detection,
+   * a collection of pre-trained GB-Net models used for replicating results from the paper, and
+   * and oddly specfic version of PyTorch, namely `0.3.0.post4`, which can only be installed from a manually downloaded wheel.
+ * There is an `environment.yml` file which sets up Conda with Python 3.6 and relevant dependencies, `conda env create -f environment.yml`.
 
 ---
 
