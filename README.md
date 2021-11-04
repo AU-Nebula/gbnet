@@ -8,7 +8,7 @@ There are two primary steps to set up the project: data download and Conda envir
    * the Visual Genome dataset with other 100,000 JPEG images and their respective annotations,
    * a pre-trained Faster R-CNN model for object detection,
    * a collection of pre-trained GB-Net models used for replicating results from the paper, and
-   * and oddly specfic version of PyTorch, namely `0.3.0.post4`, which can only be installed from a manually downloaded wheel.
+   * an oddly specfic version of PyTorch, namely `0.3.0.post4`, which can only be installed from a manually downloaded wheel.
  * There is an `environment.yml` file which sets up Conda with Python 3.6 and relevant dependencies, `conda env create -f environment.yml`.
 
 ---
