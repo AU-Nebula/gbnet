@@ -25,8 +25,8 @@ mkdir -p checkpoints/vgdet
 wget -nc -P checkpoints/vgdet https://www.dropbox.com/s/cfyqhskypu7tp0q/vg-24.tar
 
 # Pre-trained GB-Net models
-mkdir cahces/
-wget -nc -P caches/ https://www.dropbox.com/sh/rbnkcnfh0bmw08m/AACVBegZ14YGG9XwcsmJFxFua
+# mkdir cahces/
+# wget -nc -P caches/ https://www.dropbox.com/sh/rbnkcnfh0bmw08m/AACVBegZ14YGG9XwcsmJFxFua
 
 # GB-Net uses an oddly specific PyTorch version which has to be installed from
 # a manually downloaded wheel.
